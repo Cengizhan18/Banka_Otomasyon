@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2F5BCD42-7DF5-4E63-B454-AF7C52C6143E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Banka_Otomasyon</RootNamespace>
+    <AssemblyName>Banka_Otomasyon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm100bin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm100bin.Designer.cs">
+      <DependentUpon>Frm100bin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm10bin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm10bin.Designer.cs">
+      <DependentUpon>frm10bin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm500bin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm500bin.Designer.cs">
+      <DependentUpon>Frm500bin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmbaslangic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmbaslangic.Designer.cs">
+      <DependentUpon>Frmbaslangic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmbilgigümcelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmbilgigümcelle.Designer.cs">
+      <DependentUpon>Frmbilgigümcelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDoviz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDoviz.Designer.cs">
+      <DependentUpon>FrmDoviz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmelektrik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmelektrik.Designer.cs">
+      <DependentUpon>Frmelektrik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmhesap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmhesap.Designer.cs">
+      <DependentUpon>Frmhesap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmhesapdetay2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmhesapdetay2.Designer.cs">
+      <DependentUpon>Frmhesapdetay2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmhesapmakine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmhesapmakine.Designer.cs">
+      <DependentUpon>Frmhesapmakine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmkart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmkart.Designer.cs">
+      <DependentUpon>Frmkart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmkayıtol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmkayıtol.Designer.cs">
+      <DependentUpon>Frmkayıtol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmkrediler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmkrediler.Designer.cs">
+      <DependentUpon>Frmkrediler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmnetflix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmnetflix.Designer.cs">
+      <DependentUpon>Frmnetflix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmnetflixfatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmnetflixfatura.Designer.cs">
+      <DependentUpon>Frmnetflixfatura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmParaTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmParaTransfer.Designer.cs">
+      <DependentUpon>FrmParaTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmsifreal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmsifreal.Designer.cs">
+      <DependentUpon>Frmsifreal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVarlıklarım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVarlıklarım.Designer.cs">
+      <DependentUpon>FrmVarlıklarım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYoutube.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYoutube.Designer.cs">
+      <DependentUpon>FrmYoutube.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYoutubeöde.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYoutubeöde.Designer.cs">
+      <DependentUpon>FrmYoutubeöde.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sqlbaglan.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm100bin.resx">
+      <DependentUpon>Frm100bin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm10bin.resx">
+      <DependentUpon>frm10bin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm500bin.resx">
+      <DependentUpon>Frm500bin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmbaslangic.resx">
+      <DependentUpon>Frmbaslangic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmbilgigümcelle.resx">
+      <DependentUpon>Frmbilgigümcelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDoviz.resx">
+      <DependentUpon>FrmDoviz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmelektrik.resx">
+      <DependentUpon>Frmelektrik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmhesap.resx">
+      <DependentUpon>Frmhesap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmhesapdetay2.resx">
+      <DependentUpon>Frmhesapdetay2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmhesapmakine.resx">
+      <DependentUpon>Frmhesapmakine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmkart.resx">
+      <DependentUpon>Frmkart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmkayıtol.resx">
+      <DependentUpon>Frmkayıtol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmkrediler.resx">
+      <DependentUpon>Frmkrediler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmnetflix.resx">
+      <DependentUpon>Frmnetflix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmnetflixfatura.resx">
+      <DependentUpon>Frmnetflixfatura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmParaTransfer.resx">
+      <DependentUpon>FrmParaTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmsifreal.resx">
+      <DependentUpon>Frmsifreal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVarlıklarım.resx">
+      <DependentUpon>FrmVarlıklarım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYoutube.resx">
+      <DependentUpon>FrmYoutube.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYoutubeöde.resx">
+      <DependentUpon>FrmYoutubeöde.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
